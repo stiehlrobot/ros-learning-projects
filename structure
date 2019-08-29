@@ -15,7 +15,7 @@ Stage 1 - Basics of ROS
 Stage 2 - ROS with Arduino
   a. Set up rosserial libraries for Arduino [x]
     1. Instructions for setup: http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
-  b. Basic communication with Arduino - Change LED state []
+  b. Basic communication with Arduino - Change LED state [x]
   c. Read sensor values from TEMP sensor using I2C bus []
   d. Read ultrasonic sensor values from Arduino []
   e. Control 2 motors using Motor Driver board 9655 []
