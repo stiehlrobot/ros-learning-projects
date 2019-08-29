@@ -1,0 +1,32 @@
+This is a structure for my learning path into ros and robotics
+
+
+Stage 1 - Basics of ROS
+  a. Ros nodes [x]
+  b. Publishers [x]
+  c. Subscribers [x]
+  d. Topics [x]
+  e. Messages [x]
+  f. Services [x]
+  g. Launch files [x]
+  h. Command line tools for debugging [x]
+  
+  
+Stage 2 - ROS with Arduino
+  a. Set up rosserial libraries for Arduino [x]
+    1. Instructions for setup: http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
+  b. Basic communication with Arduino - Change LED state []
+  c. Read sensor values from TEMP sensor using I2C bus []
+  d. Read ultrasonic sensor values from Arduino []
+  e. Control 2 motors using Motor Driver board 9655 []
+  f. Build 2 wheeled robot with arduino mega []
+  g. control two wheeled robot using ros twist teleop key []
+
+Stage 3 - ROS with Raspberry Pi 3
+  a. Set up raspberry pi ros []
+  b. Set up a publisher on Raspberry Pi node, communicate over Wifi []
+  c. Control a led on Raspberry Pi
+
+Stage 4 - ROS with gazebo
+  a. Object Irritational Robot using turtlebot 3 simulation
+  
