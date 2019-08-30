@@ -19,10 +19,16 @@ Stage 2 - ROS with Arduino
   c. Read sensor values from Grove Temperature and Humidity sensor using I2C bus [x]
     1. Used combination of this https://github.com/Seeed-Studio/Grove_Temper_Humidity_TH02 and ros_lib Temperature example to publish on two separate ros topics
     2. Created a rosnode to subscribe to /temperature and /humidity topics to print out temp and humidity values
-  d. Read ultrasonic sensor values from Arduino []
-  e. Control 2 motors using Motor Driver board 9655 []
-  f. Build 2 wheeled robot with arduino mega []
-  g. control two wheeled robot using ros twist teleop key []
+  d. Read ultrasonic sensor values from Arduino [x]
+    1. Used this tutorial to read HC SR04 Ultrasonic sensor values from Serial monitor: https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
+    2. Create a rosserial node on arduino to read distance value and publish it to topic ultrasonic_distance
+  e. Control a stepper via rosserial using Motor Driver board ZC-A0591 []
+  f. Control a servo via rosserial using PC 9655 pwm driver board
+  g. Control two motors via rosserial from another node using publisher -- subscriber
+  h. Build 2 wheeled robot with arduino mega []
+  i. control two wheeled robot using ros twist teleop key []
+  j. Publish a message sent via rosserial to LCD display of arduino []
+    1. https://www.youtube.com/watch?v=QS1rGdFrBd4 using this tutorial to connect lcd to arduino
 
 Stage 3 - ROS with Raspberry Pi 3
   a. Set up raspberry pi ros []
