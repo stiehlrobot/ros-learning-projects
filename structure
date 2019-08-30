@@ -1,4 +1,8 @@
 This is a structure for my learning path into ros and robotics
+General todos:
+
+- find a 5V power supply
+- find parts for robot wheel to stepper pin connection
 
 
 Stage 1 - Basics of ROS
@@ -23,11 +27,11 @@ Stage 2 - ROS with Arduino
     1. Used this tutorial to read HC SR04 Ultrasonic sensor values from Serial monitor: https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
     2. Create a rosserial node on arduino to read distance value and publish it to topic ultrasonic_distance
   e. Control a stepper via rosserial using Motor Driver board ZC-A0591 []
-  f. Control a servo via rosserial using PC 9655 pwm driver board
-  g. Control two motors via rosserial from another node using publisher -- subscriber
-  h. Build 2 wheeled robot with arduino mega []
-  i. control two wheeled robot using ros twist teleop key []
-  j. Publish a message sent via rosserial to LCD display of arduino []
+  f. Control a servo via rosserial using PC 9655 pwm driver board []
+  g. Control two motors via rosserial from another node using publisher -- subscriber []
+  h. Build 4 wheeled robot with arduino mega []
+  i. control four wheeled robot using ros twist teleop key []
+  j. Publish a message sent via rosserial to LCD display of arduino [x]
     1. https://www.youtube.com/watch?v=QS1rGdFrBd4 using this tutorial to connect lcd to arduino
 
 Stage 3 - ROS with Raspberry Pi 3
@@ -36,5 +40,5 @@ Stage 3 - ROS with Raspberry Pi 3
   c. Control a led on Raspberry Pi
 
 Stage 4 - ROS with gazebo
-  a. Object Irritational Robot using turtlebot 3 simulation
+  a. Object Irritational Robot using turtlebot 3 simulation [x]
   
