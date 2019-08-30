@@ -16,7 +16,8 @@ Stage 2 - ROS with Arduino
   a. Set up rosserial libraries for Arduino [x]
     1. Instructions for setup: http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
   b. Basic communication with Arduino - Change LED state [x]
-  c. Read sensor values from TEMP sensor using I2C bus []
+  c. Read sensor values from Grove Temperature and Humidity sensor using I2C bus [x]
+    1. Used combination of this https://github.com/Seeed-Studio/Grove_Temper_Humidity_TH02 and ros_lib Temperature example to publish on two separate ros topics
   d. Read ultrasonic sensor values from Arduino []
   e. Control 2 motors using Motor Driver board 9655 []
   f. Build 2 wheeled robot with arduino mega []
