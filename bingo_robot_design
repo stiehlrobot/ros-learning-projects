@@ -13,6 +13,11 @@ Ultrasonic sensor - to calculate distance to objects infront of robot, for obsta
 Ir sensor - to calculate distance to objects infront, for obstacle avoidance
 Temperature & humidity sensor grove - to measure temperature and humidity
 
+Software design architechture:
+
+
+
+
 bonus:
 
 Servo with ir range detector to get point cloud
