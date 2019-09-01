@@ -1,0 +1,21 @@
+## This file contains the hardware specification for bingo the robot. 
+Bingo is a practice project to test ros skills for real real hardware robot ##
+
+Device list / role:
+
+Arduino Mega - interface to sensors and actuators
+ESP 8266 module - provides WiFi functionality to Arduino
+Powerbank for arduino 
+6 V battery pack for steppers
+Stepper motors x2 - Main actuators of robot, connected to wheels
+Stepper motor driver boards x2 - control the stepper motors and connect to arduino
+Ultrasonic sensor - to calculate distance to objects infront of robot, for obstacle avoidance
+Ir sensor - to calculate distance to objects infront, for obstacle avoidance
+Temperature & humidity sensor grove - to measure temperature and humidity
+
+bonus:
+
+Servo with ir range detector to get point cloud
+
+
+obstacle detection options and lidars tested -  https://www.youtube.com/watch?v=ddxguAzzzJE
