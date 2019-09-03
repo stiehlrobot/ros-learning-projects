@@ -33,6 +33,9 @@ Stage 2 - ROS with Arduino
   i. control four wheeled robot using ros twist teleop key []
   j. Publish a message sent via rosserial to LCD display of arduino [x]
     1. https://www.youtube.com/watch?v=QS1rGdFrBd4 using this tutorial to connect lcd to arduino
+  k. Connect IMU to Arduino and print values in Serial
+    1. Test on robot how values change as robot turns etc. 
+  l. Connect and test IR Distance Interrupter v1.2
 
 Stage 3 - ROS with Raspberry Pi 3
   a. Set up raspberry pi ros []
@@ -41,4 +44,8 @@ Stage 3 - ROS with Raspberry Pi 3
 
 Stage 4 - ROS with gazebo
   a. Object Irritational Robot using turtlebot 3 simulation [x]
+  
+Stage 5 - Mobile robot kinematics
+  a. Understand this: https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/
+
   
