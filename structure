@@ -41,9 +41,10 @@ Stage 2 - ROS with Arduino
     2. Read sensorvalues
 
 Stage 3 - ROS with Raspberry Pi 3
-  a. Set up raspberry pi ros []
-  b. Set up a publisher on Raspberry Pi node, communicate over Wifi []
-  c. Control a led on Raspberry Pi
+  a. Set up raspberry pi ros with ubiquityrobot image [x]
+    1. Used this tutorial: https://learn.ubiquityrobotics.com/workstation_setup
+  b. Set up a publisher on Raspberry Pi node, communicate over Wifi [x]
+  c. Control a led on Raspberry Pi []
 
 Stage 4 - ROS with gazebo
   a. Object Irritational Robot using turtlebot 3 simulation [x]
