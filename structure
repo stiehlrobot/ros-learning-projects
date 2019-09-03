@@ -26,16 +26,19 @@ Stage 2 - ROS with Arduino
   d. Read ultrasonic sensor values from Arduino [x]
     1. Used this tutorial to read HC SR04 Ultrasonic sensor values from Serial monitor: https://randomnerdtutorials.com/complete-guide-for-ultrasonic-sensor-hc-sr04/
     2. Create a rosserial node on arduino to read distance value and publish it to topic ultrasonic_distance
-  e. Control a stepper via rosserial using Motor Driver board ZC-A0591 []
-  f. Control a servo via rosserial using PC 9655 pwm driver board []
+  e. Control a stepper via rosserial using Motor Driver board ZC-A0591 [x]
+  f. Write basic movement functions for steppers: forward, backward, turn(direction, time)
   g. Control two motors via rosserial from another node using publisher -- subscriber []
   h. Build 4 wheeled robot with arduino mega []
   i. control four wheeled robot using ros twist teleop key []
   j. Publish a message sent via rosserial to LCD display of arduino [x]
     1. https://www.youtube.com/watch?v=QS1rGdFrBd4 using this tutorial to connect lcd to arduino
-  k. Connect IMU to Arduino and print values in Serial
+  k. Connect IMU Accel, Gyro, Temp to Arduino and print values in Serial [x]
     1. Test on robot how values change as robot turns etc. 
-  l. Connect and test IR Distance Interrupter v1.2
+    2. Library for sensor: https://github.com/Seeed-Studio/Accelerometer_And_Gyroscope_LSM6DS3/blob/master/README.md
+  l. Connect and test IR Distance Interrupter v1.2 [x]
+    1. Calibrated sensor using onboard pot
+    2. Read sensorvalues
 
 Stage 3 - ROS with Raspberry Pi 3
   a. Set up raspberry pi ros []
