@@ -48,8 +48,12 @@ Stage 3 - ROS with Raspberry Pi 3
 
 Stage 4 - ROS with gazebo
   a. Object Irritational Robot using turtlebot 3 simulation [x]
+ 
   
 Stage 5 - Mobile robot kinematics
   a. Understand this: https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/
+  
+Stage 6 - Rotary motor encoders
+  a. check this video https://www.youtube.com/watch?v=V1txmR8GXzE
 
   
