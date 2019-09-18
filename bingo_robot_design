@@ -1,37 +1,45 @@
 ## This file contains the hardware specification for bingo the robot. 
-Bingo is a practice project to test ros skills for real real hardware robot ##
+Bingo is diff drive practice project to test ros skills for a real hardware robot ##
+
 
 Inspirational robots:
 
-JET https://www.servocity.com/tx1-jet-robot-kit
-MAGNI https://learn.ubiquityrobotics.com/misc/Magni%20Silver%20Shipment%20Contents.txt
-ROSBOT 2.0 PRO http://wiki.ros.org/Robots/ROSbot-2.0-PRO
-NOX https://www.hackster.io/robinb/nox-a-house-wandering-robot-ros-652315
+  JET https://www.servocity.com/tx1-jet-robot-kit
+  MAGNI https://learn.ubiquityrobotics.com/misc/Magni%20Silver%20Shipment%20Contents.txt
+  ROSBOT 2.0 PRO http://wiki.ros.org/Robots/ROSbot-2.0-PRO
+  NOX https://www.hackster.io/robinb/nox-a-house-wandering-robot-ros-652315
 
-My robot- 
+Bingo_hardware
 
-Arduino Mega - interface to sensors and actuators
-Raspberry Pi 3 - Provides WIFI
+  Arduino Mega - interface to sensors and actuators
+  Raspberry Pi 3 - Provides WIFI
 
-Powerbank for arduino - OK
-6 V battery pack for steppers - OK
-6 V DC motors with encoders - Main actuators of robot, connected to wheels TODO, GET
-Motor driver board - TO DO, CHECK
-Ultrasonic sensor - to calculate distance to objects infront of robot, for obstacle avoidance OK
-Ir sensor - to calculate distance to objects infront, for obstacle avoidance OK
-Temperature & humidity sensor grove - to measure temperature and humidity OK
-IMU - acceleration and gyro OK
-LED lights for state - 
-Battery state reader - 
+  10,000 mAH Powerbank for arduino - OK
+  6 V battery pack for steppers - OK
+  6 V DC motors with encoders - Main actuators of robot, connected to wheels ENCODERS TODO
+  Motor driver board - TB6612FNG OK
+  Ultrasonic sensor - to calculate distance to objects infront of robot, for obstacle avoidance OK
+  Ir sensor - to calculate distance to objects infront, for obstacle avoidance OK
+  Temperature & humidity sensor grove - to measure temperature and humidity OK
+  IMU - acceleration and gyro OK  
+  Switch - to control 6V battery pack OK
+  
+  Tamiya components for chassis
+  2 motor independent gearbox for type 130 DC motors
+  Tamiya Sports Tire Set - 56 mm diameter
+  
 
-Software design architechture:
+Software high level architechture:
 
+  Communication protocal - ROSSerial
 
-
+  PC - ros master
+  Arduino - Ros node, subscriber (/cmd_vel), publisher (/Pose)
+  Raspberry Pi - Ros node
 
 bonus:
 
-Servo with ir range detector to get point cloud
-
-
-obstacle detection options and lidars tested -  https://www.youtube.com/watch?v=ddxguAzzzJE
+  Servo with ir range detector - to create point cloud of obstacle data (needs bigger chassis probably)
+  LED lights for state -
+  Battery state reader - 
+  obstacle detection options and lidars tested -  https://www.youtube.com/watch?v=ddxguAzzzJE
