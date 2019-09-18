@@ -36,6 +36,12 @@ Software high level architechture:
   PC - ros master
   Arduino - Ros node, subscriber (/cmd_vel), publisher (/Pose)
   Raspberry Pi - Ros node
+  
+Todo software:
+
+  1. Ssh to Raspberry Pi 3 create a rosnode subscriber
+  2. Set up simple publisher on Arduino with rosnode
+  
 
 bonus:
 
