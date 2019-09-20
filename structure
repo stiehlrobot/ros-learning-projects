@@ -52,6 +52,7 @@ Stage 4 - ROS with gazebo
   
 Stage 5 - Mobile robot kinematics
   a. Understand this: https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/
+  b. Use this for connecting the encoder: http://andrewjkramer.net/wp-content/uploads/2015/12/motor-encoder-wiring.png
   
 Stage 6 - Rotary motor encoders
   a. check this video https://www.youtube.com/watch?v=V1txmR8GXzE
