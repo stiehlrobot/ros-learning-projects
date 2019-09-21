@@ -1,0 +1,4 @@
+#This document is to gather and answer all the questions that have come up during this learning journey
+
+Q1. When using ros on multiple devices in a robot application on which device should the master node be running? on the robot or on the workstation?
+A1. There seems to be a possibility to run more than one ros master node simultaneously.
