@@ -54,8 +54,10 @@ Stage 5 - Mobile robot kinematics
   a. Understand this: https://husarion.com/tutorials/ros-tutorials/3-simple-kinematics-for-mobile-robot/
   b. Use this for connecting the encoder: http://andrewjkramer.net/wp-content/uploads/2015/12/motor-encoder-wiring.png
   
-Stage 6 - Rotary motor encoders
+Stage 6 - Magnetic encoders
   a. check this video https://www.youtube.com/watch?v=V1txmR8GXzE
+  b. Had trouble getting consistent amount of ticks for a rotation of the encoder.
+  c. In depth about reading encoder values and interrupts - https://www.robotroom.com/Counter6.html
   
 Stage 7 - Diffrential drive from ROS
   a. https://wiki.ros.org/differential_drive diff derive ros package
